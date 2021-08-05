@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:id="@+id/trailer_card_view"
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/trailerCover"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        />
+    <TextView
+        android:id="@+id/trailerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

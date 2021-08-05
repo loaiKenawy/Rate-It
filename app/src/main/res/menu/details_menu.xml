@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="start">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_video"
+            android:title="Play Trailer"
+            android:iconTint="@color/white"
+            />
+        <item
+            android:id="@+id/addToFavorite"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="Add To Favorite"
+            android:iconTint="@color/white"
+            />
+
+    </group>
+</menu>
